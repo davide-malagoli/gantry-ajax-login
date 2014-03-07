@@ -1,0 +1,138 @@
+// Core Overrides
+small {
+  font-size: 0.85em;
+}
+cite {
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	width: auto;
+	height: auto;
+}
+
+ul.menu {
+	ul.unstyled {
+		margin-left: 25px;
+	}
+}
+
+.input-xxlarge {
+	width: 97%;
+}
+
+.gantry-example {
+	.search-query {margin-bottom: 10px;}
+}
+
+// RocketTheme Extension Overrides
+
+// RokStock
+body {
+	#rokstock, .rokstock-tooltip {
+		.title {
+			font-size: 12px;
+			line-height: inherit;
+			margin: auto;
+			padding: inherit;
+			letter-spacing; inherit;
+			font-weight: inherit;
+			border: none;
+			.box-shadow(none);
+		}
+		.rokstock-list {
+			.row {
+				margin: auto;
+				overflow: hidden;
+				height: auto;
+				&:before, &:after {
+					display: none;
+					content: none;
+					clear: inherit;
+				}
+			}
+		}
+		select {
+			width: auto;
+			height: auto;
+			line-height: auto;
+			margin: 0em;
+		}
+		input[type="text"] {
+			margin-bottom: inherit;
+			font-size: 12px;
+		}
+		.rokstock-add {
+			height: auto;
+			padding: 1px 5px;
+		}
+		.value {
+			font-size: 0.9em;
+		}
+	}
+	.rokstock-tooltip {
+		.row {
+			margin: auto;
+			overflow: hidden;
+			height: auto;
+			&:before, &:after {
+				display: none;
+				content: none;
+				clear: inherit;
+			}
+		}
+	}
+}
+
+// RokWeather
+body {
+	#rokweather {
+		.rokweather-wrapper {
+			.row {
+				margin: auto;
+				overflow: hidden;
+				height: auto;
+				&:before, &:after {
+					display: none;
+					content: none;
+					clear: inherit;
+				}
+			}
+		}
+		form {
+			margin-bottom: inherit;
+		}
+	}
+}
+
+// RokQuickCart
+body {
+	.cart_quickcart {
+		select {
+			width: auto;
+			height: auto;
+			line-height: auto;
+			margin: 0em;
+		}
+		input[type="text"] {
+			margin-bottom: inherit;
+			font-size: 12px;
+			line-height: inherit;
+			padding: inherit;
+			height: inherit;
+		}
+	}
+}
+
+// Third Party Extension Overrides
+#phocaMap img, .gmnoprint img, .wk-map img, .SpGeoMapModbasic img {
+	max-width: none;
+}
+
+// XDEbug fixes
+.xdebug-var-dump {
+	i {
+		width: inherit !important;
+	}
+}

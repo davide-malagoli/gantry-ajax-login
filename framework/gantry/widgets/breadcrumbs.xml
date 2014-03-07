@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: breadcrumbs.xml 59361 2013-03-13 23:10:27Z btowles $ -->
+<form>
+    <fieldset name="widget">
+    	<field name="prefix" type="text" label="Prefix" class="widefat" size="30" default="You are here:" readonly="false"/>
+        <field name="category" type="checkbox" default="1" value="1" label="Display Single Post Category"/>
+    </fieldset>
+</form>

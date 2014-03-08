@@ -191,6 +191,11 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 	<?php echo $gantry->displayModules('analytics','basic','basic'); ?>
 	<?php /** End Analytics **/ endif; ?>
 	<?php $gantry->displayFooter(); ?>
+	
+	<?php /** Begin Popup **/ if ($gantry->countModules('popup')) : ?>
+	<?php echo $gantry->displayModules('popup','login','login'); ?>
+	<?php /** End Popup **/ endif; ?>
+    
 	</body>
 </html>
 <?php

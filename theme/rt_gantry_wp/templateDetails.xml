@@ -31,6 +31,7 @@
 		<position id="copyright" name="Copyright" max_positions="6">Copyright</position>
 		<position id="analytics" name="Analytics" max_positions="1">Analytics</position>
 		<position id="debug" name="Debug" max_positions="1">Debug</position>
+		<position id="popup" name="Popup" max_positions="1">Popup</position>
 	</positions>
 	<widget_styles>
 		<stylegroup name="box-variations" label="Box Variation">

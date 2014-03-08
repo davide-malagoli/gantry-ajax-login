@@ -8,7 +8,7 @@ And edited using this tutorial:
 
 http://gantry-framework.org/documentation/wordpress/tutorials/creating_popup_login.md
 
-<h3> Installaztion howto <h3>
+<h3> Installation howto <h3>
 
 1)Just Download the 3 zip files and install them in your Wordpress
 

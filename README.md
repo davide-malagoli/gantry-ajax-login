@@ -1,18 +1,9 @@
+GANTRY AJAX LOGIN
 
-    ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+I used the Gantry 4.1.1 Wordpress Plugin+Theme avaiable here:
 
+http://gantry-framework.org/download
 
-Hi there! Welcome to Cloud9 IDE!
+And edited using this tutorial:
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+http://gantry-framework.org/documentation/wordpress/tutorials/creating_popup_login.md
